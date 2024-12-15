@@ -66,7 +66,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <style>
       form{
         margin-top: 15px;
-        /* height: 600px; */
       }
 
       .login {
