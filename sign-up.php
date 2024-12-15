@@ -66,7 +66,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <style>
       form{
         margin-top: 15px;
-        /* height: 600px; */
       }
 
       .login {
@@ -102,7 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <input type="password" class="<?= $confirm_passwordErr ? 'is-invalid' : ''; ?>" id="confirm_password" name="confirm_password" placeholder="password confirmation">
       <div class="invalid-feedback" > <?= $confirm_passwordErr ?></div>
       <button type="submit" onclick="Signup()">Sign Up</button>
-      <p class="login">Already have an account? <a href="login.php">Login here</a></p>
+      <p class="login">Already have an account? <a href="login.php">Login here</a> </p>
     </form>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
