@@ -34,7 +34,4 @@ the dashboard that displays to the user when you put your information correctly 
 
 # ERROR Page
 When we want to have access to our dashboard without login its shows an error page.
-<p align="center" width="400"> 
-  
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s9tpd1cghtqt1zsqere7.png) </br>
-</p>
+
